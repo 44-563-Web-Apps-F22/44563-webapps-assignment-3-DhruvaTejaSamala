@@ -32,6 +32,54 @@
             <li>National WW1 Museum and Memorial</li>
             <li>Money Museum</li>
           </ul> </p>
+          <a href="https://github.com/44-563-Web-Apps-F22/44563-webapps-assignment-3-DhruvaTejaSamala/blob/main/aboutme.html">Link to my bio</a>
+          <hr>
+          <table>
+            <tr>
+              <th>Citys</th>
+              <th>Locations</th>
+              <th>Time Spent</th>
+            </tr>
+            <tr>
+              <td>California</td>
+              <td>Yosemite National Park <br> Disneyland Park</td>
+              <td>4 hours <br> 3 hours to whole day</td>
+            </tr>
+            <tr>
+              <td>San Farancisco</td>
+              <td>Golden Gate Bridge</td>
+              <td>2 Hours</td>
+            </tr>
+            <tr>
+                <td>Los Angeles</td>
+                <td>Universal Studios Hollywood <br> Griffith Observatory</td>
+                <td>4 hours <br> 3 Hours</td>
+            </tr>
+          </table>
+          <hr>
+           
+            <h3>Code Snippet</h3>
+            <blockquote>Checkerboard CSS pattern bug (diagonal unaesthetic line)</blockquote >
+            <a href="https://css-tricks.com/snippets/svg/svg-patterns/#aa-checkerboard-pattern">Stackoverflow Link</a>
+            <pre class="line-numbers">
+                <code class="language-svg">
+                <svg width="100%" height="100%">
+    
+                <!-- Let's define the pattern -->
+                <!-- The width and height should be double the size of a single checker -->
+                <pattern id="pattern-checkers" x="0" y="0" width="200" height="200" patternUnits="userSpaceOnUse">
+                <!-- Two instances of the same checker, only positioned apart on the `x` and `y` axis -->
+                <!-- We will define the `fill` in the CSS for flexible use -->
+                <rect class="checker" x="0" width="100" height="100" y="0"></rect>
+                <rect class="checker" x="100" width="100" height="100" y="100"></rect>
+                </pattern>
+                
+                <!-- Define the shape that will contain our pattern as the fill -->
+                <rect x="0" y="0" width="100%" height="100%" fill="url(#pattern-checkers)"></rect>
+                
+                </svg>
+            </code>
+            </pre>
     </header>
 </body>
 </html>
